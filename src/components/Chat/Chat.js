@@ -11,9 +11,6 @@ import Messages from "../Messages/Messages";
 
 let socket;
 
-let today = new Date();
-let nowTime = today.getHours() + ":" + today.getMinutes();
-
 const Chat = ({ location }) => {
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
